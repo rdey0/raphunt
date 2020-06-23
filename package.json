@@ -1,0 +1,32 @@
+{
+  "name": "trapmoneybenny",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://raphunt.com",
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "aws s3 sync build/ s3://staging.raphunt.com",
+    "prod_deploy": "aws s3 sync build/ s3://raphunt.com",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-ga": "^2.5.3",
+    "react-scripts": "2.1.1",
+    "snoowrap": "^1.15.2"
+  },
+  "devDependencies": {
+    "prettier": "1.15.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
