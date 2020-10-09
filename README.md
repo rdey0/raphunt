@@ -1,3 +1,7 @@
+trapmoneybenny is the best app out there.
+
+checkout the site: raphunt.com
+
 RULES:
 - Dont push to `master` branch.
 - Dont push to `dev` branch.
