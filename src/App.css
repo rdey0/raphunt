@@ -1,7 +1,7 @@
 /* fonts and colors*/
 
 html {
-  background-color: #121212;
+  background-color: #131313;
 }
 body,
 input,
@@ -30,12 +30,16 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
 
 .App {
-  background-color: #121212;
+  /*background-color: #181818;*/
+  /*background: linear-gradient(180deg, rgba(37,37,37,1) 0%, rgba(25,25,25,1) 12%, rgba(18,18,18,1) 100%);*/
+  /*background: linear-gradient(143deg, rgba(37,37,37,1) 0%, rgba(25,25,25,1) 25%, rgba(18,18,18,1) 100%);*/
+  background-image: linear-gradient(to right bottom, #252525, #222222, #1e1e1e, #1b1b1b,
+   #181818, #171717, #151515, #141414, #141414, #131313, #131313, #121212);
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 /* page spacing */
@@ -133,7 +137,9 @@ form > * + * {
 }
 
 .contact-thanks {
+  animation: fadeIn ease 5s;
   display: none;
+  color: white;
 }
 
 .contact-fields {

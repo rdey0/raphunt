@@ -5,7 +5,7 @@ function ContactForm(props) {
     <form
       className="gform"
       method="POST"
-      action="https://script.google.com/macros/s/AKfycbwZZ_aoYUEkfPlC-venx67RqIuWc_8KAb-yH6_xHCUsGvQ3it8/exec"
+      /*action="https://script.google.com/macros/s/AKfycbwZZ_aoYUEkfPlC-venx67RqIuWc_8KAb-yH6_xHCUsGvQ3it8/exec"*/
     >
       <div>
         <h2>LET US KNOW</h2>
