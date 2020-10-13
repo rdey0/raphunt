@@ -1,5 +1,8 @@
-/* fonts */
+/* fonts and colors*/
 
+html {
+  background-color: #121212;
+}
 body,
 input,
 textarea {
@@ -20,21 +23,27 @@ h1 {
 }
 h2 {
   font-size: 1.4em;
-  color: black;
+  color: white;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
-/* page spacing */
+.App {
+  background-color: #121212;
+}
 
+/* page spacing */
+.header {
+  margin: 0 auto;
+}
 .wrapper {
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 3em 1.8em 6em;
 }
@@ -58,6 +67,7 @@ a:hover {
 
     font-weight: bold;
     font-family: Archivo Black;
+    color: white;
     line-height: 1em;
     text-transform: uppercase;
   }
@@ -69,9 +79,23 @@ a:hover {
   display: flex;
   position: relative;
   align-items: center;
-  margin-top: 0.6em;
+  padding: 0.4em;
+  margin-top: 0.5em;
+  /*border-bottom: 1px solid #303030;*/
+  border-radius: 4px;
+  background-color: #212121;
+ 
+  -webkit-box-shadow:5px 5px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:5px 5px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:5px 5px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  
+
+  
 }
 
+.entry:hover{
+  background-color: #303030;
+}
 .entry > * {
   /* display: table-cell; */
   /* vertical-align: middle; */
@@ -94,7 +118,7 @@ a:hover {
   width: 1em;
   position: absolute;
   left: -1.3em;
-  top: 0.05em;
+  
 }
 
 /* contact form */
@@ -110,6 +134,10 @@ form > * + * {
 
 .contact-thanks {
   display: none;
+}
+
+.contact-fields {
+  color: white;
 }
 
 .contact-fields > * + * {
@@ -129,6 +157,7 @@ button {
   font-family: Archivo Black, sans-serif;
   text-transform: lowercase;
   cursor: pointer;
+  background-color: transparent;
 }
 
 input,
@@ -136,10 +165,12 @@ textarea {
   width: 100%;
   height: 1em;
   display: inline-block;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   padding: 0.2em 0;
   outline: none;
   overflow: hidden;
+  background-color: transparent;
+  color: white;
 }
 textarea {
   resize: none;
