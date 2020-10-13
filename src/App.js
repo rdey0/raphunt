@@ -27,9 +27,10 @@ class App extends React.Component {
           <br />
           EVERY DAY
         </div>
+        
         <div className="wrapper">
           <div className="header">
-            <h1>Rap Hunt</h1>
+              <h1>Rap Hunt</h1>
           </div>
           <div id="loading">
             <h2>Hunting…</h2>
