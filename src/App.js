@@ -21,25 +21,22 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class>
-        <div className="parallax-container"></div>
-        <div className="App">
-          <div className="tagline">
-            BEST NEW RAP
-            <br />
-            EVERY DAY
+      <div className="App">
+        <div className="tagline">
+          BEST NEW RAP
+          <br />
+          EVERY DAY
+        </div>
+        
+        <div className="wrapper">
+          <div className="header">
+              <h1>Rap Hunt</h1>
           </div>
-          
-          <div className="wrapper">
-            <div className="header">
-                <h1>Rap Hunt</h1>
-            </div>
-            <div id="loading">
-              <h2>Hunting…</h2>
-            </div>
-            <ReleaseFeed releases={this.state.releases} />
-            <ContactForm />
+          <div id="loading">
+            <h2>Hunting…</h2>
           </div>
+          <ReleaseFeed releases={this.state.releases} />
+          <ContactForm />
         </div>
       </div>
     );
