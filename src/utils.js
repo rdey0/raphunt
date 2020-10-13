@@ -2,14 +2,16 @@ import Release from "./Release";
 
 const moment = require("moment");
 const snoowrap = require("snoowrap");
+
 const r = new snoowrap({
-  userAgent: "trapmoneybenny",
-  clientId: "TYKAS0ymzo5d3w",
-  clientSecret: "i_CrZl9gCvzkTfnnthmxG_TlR8o",
-  refreshToken: "38778171-iJznENnZf6XEW3Fp5RGnhrnRQyw"
+  userAgent: "raphunt",
+  clientId: "xuK5vS-L748nxA",
+  clientSecret: "NYfSgt5G3LtAcrKAKdTcOUfn500",
+  refreshToken: "32794758-tNx3W4t9PtSkyHs2iu9GWV_1ogc"
 });
 
 export function getWeeklyTopReleases(callback) {
+  console.log(r);
   r.getSubreddit("hiphopheads")
     .search({ query: "[FRESH]", time: "week", sort: "top", limit: 100 })
     .then(posts => {
@@ -37,7 +39,8 @@ export function getWeeklyTopReleases(callback) {
         topReleases[date].push(release);
       });
       callback(topReleases);
-    });
+    })
+    .catch(error => console.log('error',error));
 }
 
 export function getDayOfWeek(date) {
