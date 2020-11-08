@@ -1,23 +1,14 @@
 {
-  "files": {
-    "main.css": "/raphunt/static/css/main.92a65533.chunk.css",
-    "main.js": "/raphunt/static/js/main.e270e903.chunk.js",
-    "main.js.map": "/raphunt/static/js/main.e270e903.chunk.js.map",
-    "runtime-main.js": "/raphunt/static/js/runtime-main.7374f92d.js",
-    "runtime-main.js.map": "/raphunt/static/js/runtime-main.7374f92d.js.map",
-    "static/js/2.934bac05.chunk.js": "/raphunt/static/js/2.934bac05.chunk.js",
-    "static/js/2.934bac05.chunk.js.map": "/raphunt/static/js/2.934bac05.chunk.js.map",
-    "index.html": "/raphunt/index.html",
-    "precache-manifest.dbd3e8c20535f842b9083a7f67edacae.js": "/raphunt/precache-manifest.dbd3e8c20535f842b9083a7f67edacae.js",
-    "service-worker.js": "/raphunt/service-worker.js",
-    "static/css/main.92a65533.chunk.css.map": "/raphunt/static/css/main.92a65533.chunk.css.map",
-    "static/js/2.934bac05.chunk.js.LICENSE.txt": "/raphunt/static/js/2.934bac05.chunk.js.LICENSE.txt",
-    "static/media/fire.png": "/raphunt/static/media/fire.3ece2223.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.7374f92d.js",
-    "static/js/2.934bac05.chunk.js",
-    "static/css/main.92a65533.chunk.css",
-    "static/js/main.e270e903.chunk.js"
-  ]
+  "main.css": "/raphunt/static/css/main.4a0782c9.chunk.css",
+  "main.js": "/raphunt/static/js/main.d8e0168e.chunk.js",
+  "main.js.map": "/raphunt/static/js/main.d8e0168e.chunk.js.map",
+  "static/js/1.fd624780.chunk.js": "/raphunt/static/js/1.fd624780.chunk.js",
+  "static/js/1.fd624780.chunk.js.map": "/raphunt/static/js/1.fd624780.chunk.js.map",
+  "runtime~main.js": "/raphunt/static/js/runtime~main.da119faa.js",
+  "runtime~main.js.map": "/raphunt/static/js/runtime~main.da119faa.js.map",
+  "static/media/fire.png": "/raphunt/static/media/fire.3ece2223.png",
+  "static/css/main.4a0782c9.chunk.css.map": "/raphunt/static/css/main.4a0782c9.chunk.css.map",
+  "index.html": "/raphunt/index.html",
+  "precache-manifest.214b4d151bf0cfac72d1f538f5469c36.js": "/raphunt/precache-manifest.214b4d151bf0cfac72d1f538f5469c36.js",
+  "service-worker.js": "/raphunt/service-worker.js"
 }
