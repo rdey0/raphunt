@@ -25,7 +25,7 @@ Simply click on any of the displayed songs and you'll be redirected to it's resp
 <br/>
 
 <div align='center'> 
-    <img width='100%' src='./src/assets/page_example.PNG'>
+    <img width='100%' src='./src/assets/demo2.gif'>
 </div>
 
 <br/>
