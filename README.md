@@ -20,7 +20,7 @@ Raphunt is a web application which finds all of the fresh rap and hip hop songs 
 
 ## How to Use
 
-Simply click on any of the displayed songs and you'll be redirected to it's respective streaming platform. Songs are grouped based on their day of release (Today, Yesterday, etc) and are sorted based on popularity (most to least). The most popular songs of the week will be marked with a fire emoji.
+Simply click on any of the displayed songs and you'll be redirected to it's respective streaming platform. Songs are grouped based on their day of release (Today, Yesterday, etc) and are sorted based on popularity (greatest to least). The most popular songs of the week will be marked with a fire emoji.
 
 <br/>
 
