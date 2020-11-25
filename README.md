@@ -16,7 +16,7 @@
 
 ## Description
 
-Raphunt is a web application which finds all of the fresh rap and hip hop songs in the past week so you dont have to. Raphunt makes it easy to keep up with the latest hip hop releases and 
+Raphunt is a web application which finds all of the fresh rap and hip hop songs in the past week so you dont have to.
 
 ## How to Use
 
